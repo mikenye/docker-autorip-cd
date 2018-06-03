@@ -16,4 +16,5 @@ docker run \
 * All rip output is saved at /output.
 
 It is suggested to create an alias as follows:
+
 ```alias autorip-cd='docker run -it --rm --name autorip --device /dev/cdrom -v /opt/autorip-cd/cddb:/cddb -v /Music/Ripped:/output autorip'```
